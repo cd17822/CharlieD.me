@@ -64,15 +64,16 @@ img {
 }
 
 .right {
-	background-color: black; /*for contact me*/
 	margin-right: 33%;
 	float: right;
+	font-size: 125%;
 }
 
 .right:hover {
 	width:125px;
 	height:125px;
 	margin-left:-25px;
+	font-size: 150%;
 }
 
 .top {
@@ -89,6 +90,19 @@ img {
 
 .bottom:hover {
 	margin-top: 0px;
+}
+
+#linkedinBubble {
+	background-color: black;
+}
+
+#contactBubble {
+	background-color: black;
+}
+
+#aboutme {
+	margin-top:35%;
+	margin-bottom: 35%;
 }
 
 #face{
