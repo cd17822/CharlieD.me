@@ -21,8 +21,13 @@ body {
 
 #name {
 	text-align: center;
-	margin: 2% 0px 8% 0px;
+	margin: 2% 0px 0px 0px;
 	font-size: 350%;
+}
+
+#subname {
+	text-align: center;
+	margin: 0px 0px 8% 0px;
 }
 
 img {
