@@ -114,13 +114,13 @@ img {
 	width: 200px;
     height: 200px;
     margin: auto;
-	margin-top: 160px;
+	margin-top: 175px;
 	margin-bottom: 0px;
 }
 
 #face:hover{
 	width:250px;
 	height:250px;
-	margin-top: 135px;
+	margin-top: 150px;
 	margin-bottom: -25px;
 }
