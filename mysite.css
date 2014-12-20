@@ -62,39 +62,18 @@ img {
 	float: left;
 }
 
-.left:hover {
-	width:125px;
-	height:125px;
-	margin-right:-25px;
-}
-
 .right {
 	margin-right: 33%;
 	float: right;
 	font-size: 125%;
 }
 
-.right:hover {
-	width:125px;
-	height:125px;
-	margin-left:-25px;
-	font-size: 150%;
-}
-
 .top {
 	margin-top: -50px;
 }
 
-.top:hover {
-	margin-bottom: -25px;
-}
-
 .bottom {
 	margin-top: 25px;
-}
-
-.bottom:hover {
-	margin-top: 0px;
 }
 
 #linkedinBubble {
@@ -116,6 +95,27 @@ img {
     margin: auto;
 	margin-top: 175px;
 	margin-bottom: 0px;
+}
+
+.right:hover {
+	width:125px;
+	height:125px;
+	margin-left:-25px;
+	font-size: 150%;
+}
+
+.left:hover {
+	width:125px;
+	height:125px;
+	margin-right:-25px;
+}
+
+.top:hover {
+	margin-bottom: -25px;
+}
+
+.bottom:hover {
+	margin-top: 0px;
 }
 
 #face:hover{
