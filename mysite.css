@@ -56,8 +56,14 @@ img {
     height: 100px;
 }
 
-.left {
+#githubBubble {
 	background-color: white; /*for github*/
+	margin-left: 33%;
+	float: left;
+}
+
+#resumeBubble {
+	background-color: #009EE1; /*for github*/
 	margin-left: 33%;
 	float: left;
 }
@@ -81,12 +87,7 @@ img {
 }
 
 #contactBubble {
-	background-color: black;
-}
-
-#aboutme {
-	margin-top:35%;
-	margin-bottom: 35%;
+	background-color: #000000;
 }
 
 #face{
