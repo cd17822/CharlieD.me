@@ -1,3 +1,5 @@
+//deemed useless, inferior to css's :hover
+
 var bubbleBig=false;
 $(document).ready(function(){
     alert("OK");
