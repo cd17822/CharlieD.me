@@ -2,19 +2,19 @@ body {
 	background-color: #000000;
 	font-family: "Verdana", "Cambria", "Garamond", "Times";
 	background-repeat: no-repeat;
-	/*background-image: url("http://aurora-alarm.herokuapp.com/static/img/slider/aurora2.jpg");
-	background-image: url('http://itblogworld1.files.wordpress.com/2012/06/computer-science-wallpaper-3.jpg');*/
 }
 
 #name {
 	text-align: center;
 	margin: 2% 0px 0px 0px;
 	font-size: 350%;
+	color: white;
 }
 
 #subname {
 	text-align: center;
 	margin: 0px 0px 8% 0px;
+	color: white;
 }
 
 img {
@@ -29,7 +29,7 @@ img {
   	-moz-transition: .1s; /* Firefox 4 */
   	-webkit-transition: .1s; /* Safari and Chrome */
   	-o-transition: .1s; /* Opera */
-  	-ms-transition: .1s; /* IE9 (maybe) */
+  	-ms-transition: .1s; /* IE9 */
   	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
