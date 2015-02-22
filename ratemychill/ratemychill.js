@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $("#calculatebutton").mouseenter(function(){
-        $(this).fadeTo("fast",1);
+        $(this).fadeTo("fast",1)});
     $("#calculatebutton").mouseleave(function(){
-        $(this).fadeTo("fast",0.5);
+        $(this).fadeTo("fast",0.5)});
     $("#calculatebutton").click(function(){
       var score1 = document.getElementById("select1");
       var score2 = document.getElementById("select2");
@@ -29,7 +29,5 @@ $(document).ready(function(){
         scoretotalfixed=scoretotal;
       }
       document.getElementById("score").innerHTML = scoretotalfixed;
-    });
-    });
     });
 });
