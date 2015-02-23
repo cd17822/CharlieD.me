@@ -1,0 +1,33 @@
+.jumbotron {
+    background: url("vavoombig.png");
+    height:550px;
+    color:white;
+}
+
+.jumbotron-text {
+    margin-top:370px;
+}
+
+.first{
+    height:200px;
+}
+
+h2 {
+    text-align:center;
+}
+
+.second, .third {
+    text-align:center;
+}
+
+li {
+    text-align:center;
+}
+
+.social {
+    height:250px;
+}
+
+footer {
+    text-align:right;
+}
