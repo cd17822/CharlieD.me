@@ -1,3 +1,7 @@
+body { 
+    overflow-x: hidden;
+}
+
 .jumbotron {
     background: url("vavoombig.png");
     height:550px;
