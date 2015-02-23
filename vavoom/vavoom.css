@@ -8,10 +8,6 @@
     margin-top:370px;
 }
 
-.first{
-    height:200px;
-}
-
 h2 {
     text-align:center;
 }
@@ -20,12 +16,8 @@ h2 {
     text-align:center;
 }
 
-li {
+.showlist {
     text-align:center;
-}
-
-.social {
-    height:250px;
 }
 
 footer {
