@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>RateMyChill</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link type="text/css" rel="stylesheet" href="ratemychill.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.4/angular.min.js"></script>
+		<script type="text/javascript" src="ratemychill.js"></script>
+		<script> type="text/javascript" src="connectmongo.js"></script>
+	</head>
+
+	<body><div id="wrapper">
+		<div id="headingbox" class="divbox">
+			<h1 class="headingtitle"><strong>
+				RateMyChill.me.net.org.edu.com.wiki.gov.weebly
+			</strong></h1>
+
+			<h4 class="headingtitle">
+				Tell us about yourself. We'll rate your chill. Answer the following questions with the utmost honesty and integrity.
+			</h4>
+		</div>
+
+		<div id="choicebox" class="divbox">
+			<l style="list-style-type:none">
+				<li>Name: <select id="select1">
+		          	<option value="" selected="selected"> </option>
+		            <option value="Adam">Adam</option>
+		            <option value="Brock">Brock</option>
+		            <option value="Other">Other</option>
+				</select></li>
+
+				<li>Shoe Brand:<select id="select2">
+					<option value="" selected="selected"> </option>
+					<option value="Other">Other</option>
+		  			<option value="Fubu">Fubu</option>
+		  			<option value="Adidas">Adidas</option>
+		  			<option value= "Timberland">Timberland</option>
+		  			<option value= "Nike">Nike</option>
+					<option value= "Vans">Vans</option>
+					<option value= "New Balance">New Balance</option>
+		            <option value= "Sperry's">Sperry's</option>
+				</select></li>
+
+				<li>Shirt Brand:<select id="select3">
+					<option value="" selected="selected"> </option>
+					<option value="Other">Other</option>
+					<option value="Hollister">Hollister</option>
+					<option value="Vineyard Vines">Vineyard Vines</option>
+					<option value="Adidas">Adidas</option>
+		  			<option value="American Eagle">American Eagle</option>
+		  			<option value="Plain">Plain</option>
+		  			<option value="Nike">Nike</option>
+		  			<option value="Polo">Polo</option>
+		  			<option value="Versace">Versace</option>
+				</select></li>
+
+				<li>Hairstyle:<select id="select4">
+					<option value= "" selected="selected"> </option>
+		  			<option value= "Other">Other</option>
+		  			<option value= "Faux Hawk">Faux Hawk</option>
+		  			<option value= "Mohawk">Mohawk</option>
+		  			<option value= "Cornrows">Cornrows</option>
+		  			<option value= "Bald">Bald</option>
+		  			<option value= "Spiked">Spiked</option>
+		  			<option value= "Afro">Afro</option>
+		  			<option value= "Flat Top" >Flat Top</option>
+		  			<option value= "Tape-Up">Tape-Up</option>
+		  			<option value= "Fade">Fade</option>
+		  			<option value= "Comb-Over">Comb-Over</option>
+		  			<option value= "Regular White Guy">Regular White Guy</option>
+		            <option value= "Flow">Flow</option>
+		        </select></li>
+
+				<li>Twitter Followers:<select id="select5">
+					<option value="" selected="selected"> </option>
+		  			<option value="<50">&lt;50</option>
+		  			<option value="50-99">50-99</option>
+		  			<option value="100-149">100-149</option>
+		  			<option value="150-199">150-199</option>
+		  			<option value="200-249">200-249</option>
+		  			<option value="250+">250+</option>
+				</select></li>
+
+				<li>Thoughts on OT Genasis' "Coco":<select id="select6">
+		          	<option value="" selected="selected"> </option>
+		          	<option value="Never Heard of It">Never Heard of It</option>
+		          	<option value="Complete Garbage">Complete Garbage</option>
+		            <option value="It's Alright">It's Alright</option>
+		            <option value="I Enjoy it">I Enjoy It</option>
+		            <option value="Love It">I Love it</option>
+		            <option value="Greteat Song of All Time ">Greatest Song of All Time</option>
+		        </select></li>
+
+				<li>Internships:<select id="select7">
+					<option value="" selected="selected"> </option>
+		  			<option value="2+">2+</option>
+		  			<option value="1">1</option>
+		  			<option value="0">0</option>
+				</select></li>
+			</l>
+		</div>
+
+		<div id="calculatebutton">
+		  <strong id="calculate">Calculate</strong>
+		</div>
+		
+		<div id="scorebox" class="divbox">
+		  <footer id="score">0</footer>
+		</div>
+		
+		<div>
+		  <form>
+		    First name: <input type="text" name="fname"><br>
+		    Last name: <input type="text" name="lname"><br>
+		    <input type="submit" value="Submit">
+		  </form>
+		</div>
+
+		<div id="footer" class="divbox">
+			<footer id="footertext"> 
+				Site Authored by <a href="http://www.charlied.me"> Charlie DiGiovanna </a>, Inspired by <a href="https://twitter.com/_KrisMoran_">Kris Moran</a>'s strange mind
+			</footer>
+		</div>
+
+	</div></body>
+</html>

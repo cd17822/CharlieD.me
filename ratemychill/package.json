@@ -1,0 +1,11 @@
+{
+  "name": "ratemychill",
+  "version": "1.0.0",
+  "description": "ratemychill gets MEAN",
+  "main": "entrypoint.js",
+  "scripts": {
+    "test": "console.log(\"Whattup world\");"
+  },
+  "author": "Charlie DiGiovanna",
+  "license": "ISC"
+}
