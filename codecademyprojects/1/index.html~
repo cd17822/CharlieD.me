@@ -14,11 +14,11 @@
 	<nav class="navbar navbar-default">
   	<div class="container-fluid">
     <div class="navbar-header">
-    <a class="navbar-brand" href="#">Codecademy Projects</a>
+    <a class="navbar-brand" href="/../">Codecademy Projects</a>
     </div>
     <div>
     <ul class="nav navbar-nav">
-        <li><a class="jumper" href="/1">Syntax</a></li>
+        <li><a class="active" href="/1">Syntax</a></li>
         <li><a class="jumper" href="/2">Strings & Console Output</a></li>
 	<li><a class="jumper" href="./3">Conditionals & Control Flow</a></li>
 	<li><a class="jumper" href="./4">Functions</a></li>
@@ -45,10 +45,10 @@ All answers should be in one console separated by print statements regarding whi
 	-Science: 89<br>
 	-Psych: 96<br>
 	-Art: 92<br>
-	</li>
-	<li>Do Q1 in 5 lines of code.</li>
-<li>Calculate how far away John’s average was from a 96 using the % operator.</li>
-<li>How far was it from a 65?</li>
+	</li><br>
+	<li>Do Q1 in 5 lines of code.</li><br>
+<li>Calculate how far away John’s average was from a 96 using the % operator.</li><br>
+<li>How far was it from a 65?</li><br>
 <li>Try with these grades now:<br>
 
 -Geology: 100<br>
