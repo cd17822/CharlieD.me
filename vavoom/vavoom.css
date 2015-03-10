@@ -2,14 +2,34 @@ body {
     overflow-x: hidden;
 }
 
-.jumbotron {
-    background: url("vavoombig.png");
-    height:550px;
+.jumbotron-big {
+    background: url("IMG_8829.JPG");
+    height:540px;
     color:white;
 }
 
-.jumbotron-text {
-    margin-top:370px;
+.jumbotron-xs {
+    background: url("vavoomlogo.png");
+    height:540px;
+    color:white;
+}
+
+.jumbotron-text1 {
+    padding-top:440px;
+    padding-left:15px;
+}
+
+.subtitle1 {
+	padding-left:15px;
+}
+
+.jumbotron-text2 {
+    padding-top:440px;
+    padding-left:15px;
+}
+
+.subtitle2 {
+	padding-left:15px;
 }
 
 h2 {
