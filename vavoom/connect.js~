@@ -1,7 +1,0 @@
-var http = require('http')
-	, app = require('express')
-	, fs = require('fs');
-
-app.get('/connect', function(req, res){
-	console.log("Connected");
-});
